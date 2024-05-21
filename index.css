@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+}
+
+.main-container{
+    border: 2px solid #D2D2D2;
+    margin: 10px auto;
+    width: 600px;
+    height: 1000px;
+}
+
+.header{
+    position: relative;
+}
+
+.headerTxt{
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+h1{
+    color: white;
+    font-family: Smythe;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+h2{
+    color: white;
+    font-family: Smythe;
+    font-size: 22.42px;
+    font-weight: 400;
+    line-height: 13.8px;
+    text-align: left;
+}
+
+.container-el{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 504px;
+    display: flex;
+    flex-direction: column;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #D2D2D2;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.product-info{
+    display: block;
+}
+
+.emoji{
+    width: 70px;
+    height: 70px;
+}
+
+section h3{
+    font-family: Smythe;
+    size: 28px;
+}
+
+section h5{
+    font-family: Smythe;
+    color: #8B8B8B;
+    size: 16px;
+}
+
+.add-btn{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    font-weight: lighter;
+    background-color: white;
+    color: #3C3C3C;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50px;
+    align-self: center;
+}
+
+h3{
+    font-family: Smythe;
+    font-size: 28;
+}
+
+
+
+
+.order-list-el{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 508px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+#ordered-product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-list-info{
+    border-bottom: 2px solid #393333;
+}
+
+.section1{
+    display: flex;
+}
+
+.delete-btn{
+    font-family: Smythe;
+    color: #BBBBBB;
+    size: 12;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.section2{
+    display: flex;
+}
+
+.quant{
+    font-family: Smythe;
+    color: #BBBBBB;
+    size: 12px;
+    margin-right: 15px;
+    padding-top: 5px;
+}
+
+.price-pos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.complete-order{
+    font-family: Verdana;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #16DB99;
+    border: none;
+    radius: 3px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+
+
+
+#div-payment-form{
+    display: none;
+    position: fixed;
+    top: 100px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: white;
+    flex-direction: column;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 5.19px 5.19px 60px 0px #00000080;
+}
+
+.payment-form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#close-btn{
+    color: #3C3C3C;
+    font-size: 15px;
+    background-color: white;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    align-self: flex-end;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+form h3{
+    font-family: Verdana;
+    font-size: 24px;
+    color: #000000;
+    align-self: center;
+    margin-top: -5px;
+    margin-bottom: 40px;
+}
+
+input{
+    width: 450px;
+    height: 40px;
+    color: #757575;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0.5px solid DEDEDE;
+    border-radius: 4px;
+}
+
+#submit{
+    font-family: Verdana;
+    font-size: 20px;
+    color: white;
+    background-color: #16DB99;
+    width: 460px;
+    height: 60px;
+    align-self: center;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+footer {
+    visibility: visible;
+    display: flex;
+}
+
+.conformation-message{
+    width: 504px;
+    height: 120px;
+    background-color: #ECFDF5;
+    border: none;
+    border-radius: 4px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p{
+    color: #065F46;
+    font-family: Smythe;
+    font-size: 25px;
+}

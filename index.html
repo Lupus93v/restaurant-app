@@ -1,0 +1,45 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main-container">
+            
+        <div class="header">
+            <img src="/images/big.jpg" id="bigImg"/>
+            <div class="headerTxt">
+                <h1>Jimmy`s Diner</h1>
+                <h2>The best burgers and pizzas in town.</h2>
+            </div>
+        </div>
+        
+        <div class="container-el" id="container-el">
+          <!--- Here goes three dishes from menu --->
+        </div>
+        
+        <div class="order-list-el" id="order-list-el">
+        <!--- Here goes dishes selected from menu --->
+        </div>
+        
+        <div class="div-payment-form" id="div-payment-form">
+        <form class= "payment-form" id="payment-form">
+            <button id="close-btn" data-close="close-btn">X</button>
+            <h3>Enter card details</h3>
+            <input id="name" type="text" placeholder="Enter your name" minlength="4" maxlength="25" pattern="[a-zA-Z]+" required>
+            <input type="text" placeholder="Enter card number" minlength="16" maxlength="16" pattern="[0-9]+" required>
+            <input type="text" placeholder="Enter CVV" minlength="3" maxlength="3" pattern="[0-9]+" required>
+            <button id="submit" type="submit" data-pay="pay">Pay</button>
+        </form>
+        </div>
+        
+        <footer class="">
+            <h3 class="" style="margin: auto;" id="">You haven`t put anything in your cart yet!<h3>
+        </footer>
+        </div>
+        
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
